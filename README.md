@@ -75,5 +75,5 @@ Response + References: ส่งคำตอบกลับไปยังผู
 
 ## output
 
-[here]([https://www.google.com](https://github.com/fluke-suphanut/LLM-Chatbot-with-Private-Dataset/blob/main/output.pdf))
+[here](output.pdf)
 
