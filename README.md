@@ -72,3 +72,8 @@ User Input: ผู้ใช้พิมพ์คำถามใน UI
 Retriever: ค้นหาเอกสารที่เกี่ยวข้องจาก Vector DB
 LLM Generation: ให้ LLaMA 3 ประมวลผลและสร้างคำตอบ
 Response + References: ส่งคำตอบกลับไปยังผู้ใช้พร้อมแหล่งข้อมูล
+
+## output
+
+[here]([https://www.google.com](https://github.com/fluke-suphanut/LLM-Chatbot-with-Private-Dataset/blob/main/output.pdf))
+
