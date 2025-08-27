@@ -1,4 +1,4 @@
-# LLM Chatbot with Private Dataset (Agnos Health Forum)
+# LLM Chatbot with Private Dataset
 
 ระบบ Chatbot ที่ใช้ **RAG (Retrieval-Augmented Generation)** ดึงข้อมูลจากฐานข้อมูลกระทู้ Agnos Health Forum  
 แล้วใช้ LLM (เช่น **LLaMA 3** ผ่าน Ollama) เพื่อสร้างคำตอบที่ถูกต้องและอ้างอิงได้
@@ -11,17 +11,13 @@
 
 ## Project Structure
 
-```bash
-project/
-│
-├── Collection&Preprocessing.py   # รวบรวมและทำความสะอาดข้อมูล
-├── Embedding&Indexing.py         # สร้าง embeddings และ index
-├── Search_QA.py                  # Chat interface (Streamlit + LLaMA)
-├── vector_index/                 # เก็บไฟล์ vector database
-├── agnos_forum_posts.json        # Dataset
-├── requirements.txt
-└── README.md
-```
+Collection&Preprocessing.py: รวบรวมและทำความสะอาดข้อมูล
+Embedding&Indexing.py: สร้าง embeddings และ index
+Search_QA.py: Chat interface (Streamlit + LLaMA)
+vector_index: เก็บไฟล์ vector database
+agnos_forum_posts.json: Dataset
+requirements.txt
+README.md
 
 ## Clone Repo
 
