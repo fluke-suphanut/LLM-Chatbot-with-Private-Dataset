@@ -11,13 +11,13 @@
 
 ## Project Structure
 
-Collection&Preprocessing.py: รวบรวมและทำความสะอาดข้อมูล
-Embedding&Indexing.py: สร้าง embeddings และ index
-Search_QA.py: Chat interface (Streamlit + LLaMA)
-vector_index: เก็บไฟล์ vector database
-agnos_forum_posts.json: Dataset
-requirements.txt
-README.md
+- Collection&Preprocessing.py: รวบรวมและทำความสะอาดข้อมูล
+- Embedding&Indexing.py: สร้าง embeddings และ index
+- Search_QA.py: Chat interface (Streamlit + LLaMA)
+- vector_index: เก็บไฟล์ vector database
+- agnos_forum_posts.json: Dataset
+- requirements.txt
+- README.md
 
 ## Clone Repo
 
@@ -56,18 +56,18 @@ streamlit run Search_QA.py
 
 ## Features
 
-RAG Search: ค้นหาข้อมูลที่เกี่ยวข้องจากฐานข้อมูล forum
-LLM Response: สร้างคำตอบโดยใช้ LLaMA 3
-Multi-turn Chat: จำประวัติการสนทนา (context memory)
-Reference Links: แสดงเอกสารอ้างอิง
-Website Scraper (Bonus): ดึงข้อมูลอัตโนมัติจาก Agnos Health Forum เพื่ออัปเดตฐานข้อมูล
+- RAG Search: ค้นหาข้อมูลที่เกี่ยวข้องจากฐานข้อมูล forum
+- LLM Response: สร้างคำตอบโดยใช้ LLaMA 3
+- Multi-turn Chat: จำประวัติการสนทนา (context memory)
+- Reference Links: แสดงเอกสารอ้างอิง
+- Website Scraper (Bonus): ดึงข้อมูลอัตโนมัติจาก Agnos Health Forum เพื่ออัปเดตฐานข้อมูล
 
 ## Model Pipeline Construction
 
-User Input: ผู้ใช้พิมพ์คำถามใน UI
-Retriever: ค้นหาเอกสารที่เกี่ยวข้องจาก Vector DB
-LLM Generation: ให้ LLaMA 3 ประมวลผลและสร้างคำตอบ
-Response + References: ส่งคำตอบกลับไปยังผู้ใช้พร้อมแหล่งข้อมูล
+- User Input: ผู้ใช้พิมพ์คำถามใน UI
+- Retriever: ค้นหาเอกสารที่เกี่ยวข้องจาก Vector DB
+- LLM Generation: ให้ LLaMA 3 ประมวลผลและสร้างคำตอบ
+- Response + References: ส่งคำตอบกลับไปยังผู้ใช้พร้อมแหล่งข้อมูล
 
 ## output
 
